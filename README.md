@@ -1,4 +1,4 @@
-# Web-Development-2
+# Bakery Website
 🍰 Sugar Bomb Bakery & Pastry Shop
 
 A responsive and visually appealing bakery website designed to showcase fresh bakes, pastries, cakes, and daily specials. Built using HTML & CSS, this project focuses on clean UI, smooth layout, and a warm brand feel.
