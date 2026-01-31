@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sugar Bomb Bakery</title>
+    <link rel="stylesheet" href="Bakery & Pastry Shop.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="Screenshot_2025-12-03_at_12.17.53_PM-removebg-preview.png" height="100" width="100">
+        <h1 class="brand-name">sᴜɢᴀʀ ʙᴏᴍʙ</h1>
+    </div>
+
+    <nav>
+        <a href="Bakery & Pastry Shop.HTML">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="specials.html">Specials</a>
+        <a href="cake.html">Cakes</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+</header>
+
+<section class="contact-form" style="padding-top: 150px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p style="max-width: 700px; margin: 10px auto 30px auto; font-size: 18px;">
+        Fill out the form below and we’ll get back to you as soon as possible!
+    </p>
+
+    <form action="order-success.html" method="POST" style="max-width: 600px; margin: 0 auto; text-align: left; background-color: #8a002e; padding: 30px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); color: #fff;">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: none;">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: none;">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number" style="width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 8px; border: none;">
+
+        <label>Type of Order:</label><br>
+        <input type="radio" id="veg" name="type" value="veg" required>
+        <label for="veg">Veg</label>
+        <input type="radio" id="nonveg" name="type" value="nonveg" style="margin-left: 20px;">
+        <label for="nonveg">Non-Veg</label><br><br>
+
+        <label for="message">More Details / Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message here..." style="width:100%; padding:10px; margin-bottom:15px; border-radius:8px; border:none;"></textarea>
+
+        <button type="submit" style="padding:12px 30px; background-color:#4f0129; border:none; border-radius:25px; font-size:18px; cursor:pointer; transition:0.3s; color:#fff;">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <div class="social-media">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/sbsugarbomb/" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/sugar_bombcake/" class="social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/@cakelounge27/shorts" class="social-link">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </div> 
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: bakeryshop@gmail.com</p>
+        <p>Phone: +91 9999999999</p>
+        <p>Address: Berlin, Germany</p>
+        <p class="credit">© 2025 Sugar Bomb Bakery | Designed by Vaishnavi Jawalkar</p>
+    </div>
+</footer>
+
+</body>
+</html>
