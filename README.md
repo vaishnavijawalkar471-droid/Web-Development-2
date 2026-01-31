@@ -60,7 +60,7 @@ Perfect for beginners and portfolio use ✨
 👩‍💻 Author
 
 Vaishnavi Jawalkar
-Designed with ❤️ and a serious sweet tooth
+Where clean code meets sugar-coated creativity.
 
 📄 License
 
