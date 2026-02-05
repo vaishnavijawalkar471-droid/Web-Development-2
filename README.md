@@ -65,4 +65,4 @@ Where clean code meets sugar-coated creativity.
 📄 License
 
 This project is open source and available under the MIT License.
-All images and content belong to their respective owners.
+All images and content belong to their respective owners. 
